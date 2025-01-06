@@ -1,0 +1,135 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #080c30;
+  color: #ff02b7de;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.main-wrapper {
+  width: 500px; 
+  background-color: #000513d5;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(18, 156, 108, 0.556);
+}
+
+.user-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; 
+}
+
+.user-photo {
+  width: 100px; 
+  height: 100px; 
+  border-radius: 50%;
+  margin-right: 15px; 
+}
+
+.user-name {
+  font-size: 24px; 
+  font-weight: bold;
+  color: #f3ebeb;
+}
+
+h2 {
+  margin-top: 15px; 
+  color: #555;
+  border-bottom: 2px solid #6b0b84;
+  padding-bottom: 5px;
+  font-size: 18px; 
+}
+
+
+.info-block, .education-block, .experience-block, .skills-list, .languages-section, .media-links, .ref-section {
+  margin-bottom: 15px; 
+}
+
+ul {
+  list-style: none;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 8px; 
+}
+
+.languages-section span {
+  color: rgba(209, 0, 115, 0.881);
+  font-size: 16px; 
+  margin-right: 5px;
+}
+
+.languages-section span:before {
+  content: ""; 
+}
+
+.languages-section span:empty:before {
+  content: "☆"; 
+}
+
+.languages-section ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+
+a:hover {
+  color: #007bff;
+}
+
+.custom-divider {
+  border-top: 1px solid #ddd;
+  margin: 15px 0; 
+}
+
+
+.ref-card {
+  background-color: #1c1ea0;
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(3, 227, 247, 0.869);
+}
+
+.ref-card h3 {
+  font-size: 16px; 
+  color: #333;
+}
+
+.ref-card p {
+  margin-top: 5px;
+  color: #666;
+}
+
+.ref-card blockquote {
+  font-style: italic;
+  margin-top: 8px; 
+  color: #555;
+}
+
+
+.media-links {
+  text-align: center;
+}
+
+.media-links a {
+  font-size: 20px; 
+  color: #555;
+  margin: 0 8px; 
+}
+
+.media-links a:hover {
+  color: #007bff;
+}

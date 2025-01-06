@@ -1,0 +1,165 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+.main-wrapper {
+  width: 80%;
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.user-name {
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Kişisel Bilgiler */
+.info-block {
+  margin-bottom: 20px;
+}
+
+.info-block h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.info-block p {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+.info-block strong {
+  font-weight: bold;
+}
+
+.info-block em {
+  font-style: italic;
+}
+
+
+.custom-divider {
+  border: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+
+.media-links {
+  margin-bottom: 20px;
+}
+
+.media-links h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.media-links a {
+  color: #333;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.media-links a:hover {
+  color: #0073b1; 
+}
+
+
+.skills-list ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.skills-list li {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+
+.languages-section ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.languages-section li {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+.language {
+  font-weight: bold;
+}
+
+.level {
+  margin-left: 5px;
+}
+
+.star {
+  color: #f39c12;
+}
+
+
+.ref-section {
+  margin-bottom: 20px;
+}
+
+.ref-section h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.ref-card {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ref-card h3 {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.ref-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.ref-card blockquote {
+  font-size: 1rem;
+  font-style: italic;
+  color: #555;
+  border-left: 3px solid #0073b1;
+  padding-left: 10px;
+  margin-top: 10px;
+}
