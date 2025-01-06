@@ -93,16 +93,14 @@ body {
 }
 
 
+
+.skills-list {
+  text-align: left;
+}
+
 .skills-list ul {
-  list-style-type: none;
-  padding-left: 20px;
+  padding-left: 0px;
 }
-
-.skills-list li {
-  font-size: 1rem;
-  margin-bottom: 8px;
-}
-
 
 .languages-section ul {
   list-style-type: none;
